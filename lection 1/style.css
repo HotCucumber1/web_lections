@@ -1,0 +1,47 @@
+/* padding - внутренний отступ от контента до краев блока
+   border - рамка идущая по краю элемента
+   margin - внешние отступы вокруг блока
+ */
+
+/*  Родительский селектор повышает вес  */
+/*  div .text > .text  */
+
+
+/* box-sizing: border-box; */
+
+/* Универсальный селектор (для всех) */
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url("./img1.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+/* HTML-тег */
+cite {
+    font-weight: bold /* 300 */;  /* Жирность начертания */
+    font-style: normal; /* Стиль начертания */
+    color: crimson;
+}
+
+.image {
+    width: 100%;
+}
+
+/* Атрибут id */
+#quote {
+    text-align: center;
+}
+
+/* Атрибут class */
+.list {
+    color: purple;
+}
+
+.quote-phraze {
+    font-style: italic;
+    font-size: 24px;
+}
